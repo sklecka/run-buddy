@@ -5,6 +5,7 @@
 }
 
 body {
+    /* more on this crazy alphanumerical value in a minute! */
     color: #39a6b2;
     font-family: Helvetica, Arial, sans-serif;
 }
@@ -90,7 +91,7 @@ section {
     right: 140px;
 }
 
-hero-form h3 {
+.hero-form h3 {
     font-size: 24px;
     margin: 0;
 }
