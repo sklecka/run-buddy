@@ -143,9 +143,47 @@ section {
 }
 /* Hero Styles End */
 
-.intro {
-    text-align: center;
+/* REACH OUT STYLES START */
+.contact {
+    background: #024e76;
 }
+
+.contact h2 {
+    color: #fce138;
+}
+
+.contact-info iframe {
+    width: 400px;
+    height: 400px;
+}
+
+.contact-info div {
+    width: 410px;
+    display: inline-block;
+    vertical-align: top;
+    text-align:left;
+    margin: 30px 0 0 60px;
+    color: white;
+}
+
+.contact-info h3 {
+    color:#fce138;
+    font-size: 32px;
+}
+
+.contact-info p,
+.contact-info address {
+    margin: 20px 0;
+    line-height: 1.5;
+    font-size: 20px;
+    font-style: normal;
+}
+
+.contact-info a {
+    color: #fce138;
+}
+
+/* REACH OUT STYLES END */
 
 .intro p {
     line-height: 1.7;
@@ -153,10 +191,10 @@ section {
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -187,10 +225,11 @@ section {
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -202,7 +241,7 @@ section {
 }
 
 .trainers {
-    text-align: center;
+
 }
 
 .trainer {
@@ -248,45 +287,6 @@ section {
     text-align: right;
 }
 
-/* REACH OUT STYLES START */
-.contact {
-    text-align: center;
-    background: #024e76;
+.flex-row {
+    display: flex;
 }
-
-.contact h2 {
-    color: #fce138;
-}
-
-.contact-info iframe {
-    width: 400px;
-    height: 400px;
-}
-
-.contact-info div {
-    width: 410px;
-    display: inline-block;
-    vertical-align: top;
-    text-align:left;
-    margin: 30px 0 0 60px;
-    color: white;
-}
-
-.contact-info h3 {
-    color:#fce138;
-    font-size: 32px;
-}
-
-.contact-info p,
-.contact-info address {
-    margin: 20px 0;
-    line-height: 1.5;
-    font-size: 20px;
-    font-style: normal;
-}
-
-.contact-info a {
-    color: #fce138;
-}
-
-/* REACH OUT STYLES END */
